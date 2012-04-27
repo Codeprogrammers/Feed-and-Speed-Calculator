@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A28B4661154B1C6400627063 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A28B4660154B1C6400627063 /* UIKit.framework */; };
+		A28B4663154B1C6400627063 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A28B4662154B1C6400627063 /* Foundation.framework */; };
+		A28B4665154B1C6400627063 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A28B4664154B1C6400627063 /* CoreGraphics.framework */; };
+		A28B466B154B1C6400627063 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A28B4669154B1C6400627063 /* InfoPlist.strings */; };
+		A28B466D154B1C6400627063 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A28B466C154B1C6400627063 /* main.m */; };
+		A28B4671154B1C6400627063 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A28B4670154B1C6400627063 /* AppDelegate.m */; };
+		A28B4679154B1C6400627063 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A28B4678154B1C6400627063 /* SenTestingKit.framework */; };
+		A28B467A154B1C6400627063 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A28B4660154B1C6400627063 /* UIKit.framework */; };
+		A28B467B154B1C6400627063 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A28B4662154B1C6400627063 /* Foundation.framework */; };
+		A28B4683154B1C6400627063 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A28B4681154B1C6400627063 /* InfoPlist.strings */; };
+		A28B4686154B1C6400627063 /* Feed_and_Speed_CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A28B4685154B1C6400627063 /* Feed_and_Speed_CalculatorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A28B467C154B1C6400627063 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A28B4653154B1C6400627063 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A28B465B154B1C6400627063;
+			remoteInfo = "Feed and Speed Calculator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A28B465C154B1C6400627063 /* Feed and Speed Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Feed and Speed Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A28B4660154B1C6400627063 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A28B4662154B1C6400627063 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A28B4664154B1C6400627063 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A28B4668154B1C6400627063 /* Feed and Speed Calculator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Feed and Speed Calculator-Info.plist"; sourceTree = "<group>"; };
+		A28B466A154B1C6400627063 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A28B466C154B1C6400627063 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A28B466E154B1C6400627063 /* Feed and Speed Calculator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Feed and Speed Calculator-Prefix.pch"; sourceTree = "<group>"; };
+		A28B466F154B1C6400627063 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A28B4670154B1C6400627063 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A28B4677154B1C6400627063 /* Feed and Speed CalculatorTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Feed and Speed CalculatorTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A28B4678154B1C6400627063 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		A28B4680154B1C6400627063 /* Feed and Speed CalculatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Feed and Speed CalculatorTests-Info.plist"; sourceTree = "<group>"; };
+		A28B4682154B1C6400627063 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A28B4684154B1C6400627063 /* Feed_and_Speed_CalculatorTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Feed_and_Speed_CalculatorTests.h; sourceTree = "<group>"; };
+		A28B4685154B1C6400627063 /* Feed_and_Speed_CalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Feed_and_Speed_CalculatorTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A28B4659154B1C6400627063 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A28B4661154B1C6400627063 /* UIKit.framework in Frameworks */,
+				A28B4663154B1C6400627063 /* Foundation.framework in Frameworks */,
+				A28B4665154B1C6400627063 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A28B4673154B1C6400627063 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A28B4679154B1C6400627063 /* SenTestingKit.framework in Frameworks */,
+				A28B467A154B1C6400627063 /* UIKit.framework in Frameworks */,
+				A28B467B154B1C6400627063 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A28B4651154B1C6400627063 = {
+			isa = PBXGroup;
+			children = (
+				A28B4666154B1C6400627063 /* Feed and Speed Calculator */,
+				A28B467E154B1C6400627063 /* Feed and Speed CalculatorTests */,
+				A28B465F154B1C6400627063 /* Frameworks */,
+				A28B465D154B1C6400627063 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A28B465D154B1C6400627063 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A28B465C154B1C6400627063 /* Feed and Speed Calculator.app */,
+				A28B4677154B1C6400627063 /* Feed and Speed CalculatorTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A28B465F154B1C6400627063 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A28B4660154B1C6400627063 /* UIKit.framework */,
+				A28B4662154B1C6400627063 /* Foundation.framework */,
+				A28B4664154B1C6400627063 /* CoreGraphics.framework */,
+				A28B4678154B1C6400627063 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A28B4666154B1C6400627063 /* Feed and Speed Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				A28B466F154B1C6400627063 /* AppDelegate.h */,
+				A28B4670154B1C6400627063 /* AppDelegate.m */,
+				A28B4667154B1C6400627063 /* Supporting Files */,
+			);
+			path = "Feed and Speed Calculator";
+			sourceTree = "<group>";
+		};
+		A28B4667154B1C6400627063 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A28B4668154B1C6400627063 /* Feed and Speed Calculator-Info.plist */,
+				A28B4669154B1C6400627063 /* InfoPlist.strings */,
+				A28B466C154B1C6400627063 /* main.m */,
+				A28B466E154B1C6400627063 /* Feed and Speed Calculator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A28B467E154B1C6400627063 /* Feed and Speed CalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				A28B4684154B1C6400627063 /* Feed_and_Speed_CalculatorTests.h */,
+				A28B4685154B1C6400627063 /* Feed_and_Speed_CalculatorTests.m */,
+				A28B467F154B1C6400627063 /* Supporting Files */,
+			);
+			path = "Feed and Speed CalculatorTests";
+			sourceTree = "<group>";
+		};
+		A28B467F154B1C6400627063 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A28B4680154B1C6400627063 /* Feed and Speed CalculatorTests-Info.plist */,
+				A28B4681154B1C6400627063 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A28B465B154B1C6400627063 /* Feed and Speed Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A28B4689154B1C6400627063 /* Build configuration list for PBXNativeTarget "Feed and Speed Calculator" */;
+			buildPhases = (
+				A28B4658154B1C6400627063 /* Sources */,
+				A28B4659154B1C6400627063 /* Frameworks */,
+				A28B465A154B1C6400627063 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Feed and Speed Calculator";
+			productName = "Feed and Speed Calculator";
+			productReference = A28B465C154B1C6400627063 /* Feed and Speed Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A28B4676154B1C6400627063 /* Feed and Speed CalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A28B468C154B1C6400627063 /* Build configuration list for PBXNativeTarget "Feed and Speed CalculatorTests" */;
+			buildPhases = (
+				A28B4672154B1C6400627063 /* Sources */,
+				A28B4673154B1C6400627063 /* Frameworks */,
+				A28B4674154B1C6400627063 /* Resources */,
+				A28B4675154B1C6400627063 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A28B467D154B1C6400627063 /* PBXTargetDependency */,
+			);
+			name = "Feed and Speed CalculatorTests";
+			productName = "Feed and Speed CalculatorTests";
+			productReference = A28B4677154B1C6400627063 /* Feed and Speed CalculatorTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A28B4653154B1C6400627063 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = A28B4656154B1C6400627063 /* Build configuration list for PBXProject "Feed and Speed Calculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A28B4651154B1C6400627063;
+			productRefGroup = A28B465D154B1C6400627063 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A28B465B154B1C6400627063 /* Feed and Speed Calculator */,
+				A28B4676154B1C6400627063 /* Feed and Speed CalculatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A28B465A154B1C6400627063 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A28B466B154B1C6400627063 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A28B4674154B1C6400627063 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A28B4683154B1C6400627063 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A28B4675154B1C6400627063 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A28B4658154B1C6400627063 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A28B466D154B1C6400627063 /* main.m in Sources */,
+				A28B4671154B1C6400627063 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A28B4672154B1C6400627063 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A28B4686154B1C6400627063 /* Feed_and_Speed_CalculatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A28B467D154B1C6400627063 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A28B465B154B1C6400627063 /* Feed and Speed Calculator */;
+			targetProxy = A28B467C154B1C6400627063 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A28B4669154B1C6400627063 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A28B466A154B1C6400627063 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A28B4681154B1C6400627063 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A28B4682154B1C6400627063 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A28B4687154B1C6400627063 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A28B4688154B1C6400627063 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A28B468A154B1C6400627063 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Feed and Speed Calculator/Feed and Speed Calculator-Prefix.pch";
+				INFOPLIST_FILE = "Feed and Speed Calculator/Feed and Speed Calculator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A28B468B154B1C6400627063 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Feed and Speed Calculator/Feed and Speed Calculator-Prefix.pch";
+				INFOPLIST_FILE = "Feed and Speed Calculator/Feed and Speed Calculator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A28B468D154B1C6400627063 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Feed and Speed Calculator.app/Feed and Speed Calculator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Feed and Speed Calculator/Feed and Speed Calculator-Prefix.pch";
+				INFOPLIST_FILE = "Feed and Speed CalculatorTests/Feed and Speed CalculatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A28B468E154B1C6400627063 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Feed and Speed Calculator.app/Feed and Speed Calculator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Feed and Speed Calculator/Feed and Speed Calculator-Prefix.pch";
+				INFOPLIST_FILE = "Feed and Speed CalculatorTests/Feed and Speed CalculatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A28B4656154B1C6400627063 /* Build configuration list for PBXProject "Feed and Speed Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A28B4687154B1C6400627063 /* Debug */,
+				A28B4688154B1C6400627063 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A28B4689154B1C6400627063 /* Build configuration list for PBXNativeTarget "Feed and Speed Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A28B468A154B1C6400627063 /* Debug */,
+				A28B468B154B1C6400627063 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A28B468C154B1C6400627063 /* Build configuration list for PBXNativeTarget "Feed and Speed CalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A28B468D154B1C6400627063 /* Debug */,
+				A28B468E154B1C6400627063 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A28B4653154B1C6400627063 /* Project object */;
+}
